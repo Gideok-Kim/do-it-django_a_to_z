@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd8dcc19-9888-4e05-8de8-d762921456d4" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,12 +38,13 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/rlarl/Searches/Downloads/github/do-it-django_a_to_z/single_pages",
+    "last_opened_file_path": "C:/Users/rlarl/Searches/Downloads/github/do-it-django_a_to_z/blog/templates/blog",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rlarl\Searches\Downloads\github\do-it-django_a_to_z\blog\templates\blog" />
       <recent name="C:\Users\rlarl\Searches\Downloads\github\do-it-django_a_to_z\single_pages" />
       <recent name="C:\Users\rlarl\Searches\Downloads\github\do-it-django_a_to_z\blog" />
     </key>
