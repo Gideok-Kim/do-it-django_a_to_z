@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <title>Blog</title>
+    <title>{% block head_title %}Blog{% endblock %}</title>
     <link href="{% static 'blog/bootstrap5/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" media="screen">
     <script src="https://kit.fontawesome.com/9c6355ff01.js" crossorigin="anonymous"></script>
 </head>
@@ -85,9 +85,9 @@
         </div>
     </div>
 
-    <div class="container" id="main-area">
+    <div class="container">
         <div class="row my-3">
-            <div class="col-md-8 col-lg-9">
+            <div class="col-md-8 col-lg-9" id="main-area">
                 {% block main_area %}
                 {% endblock %}
             </div>
