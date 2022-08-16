@@ -23,7 +23,7 @@ class TestView(TestCase) :
         self.assertEqual(blog_btn.attrs['href'], '/blog/')
 
         about_me_btn = navbar.find('a', text='About Me')
-        self.assertEqual(blog_btn.attrs['href'], '/about_me/')
+        self.assertEqual(about_me_btn.attrs['href'], '/about_me/')
 
     def test_post_list(self):
 
