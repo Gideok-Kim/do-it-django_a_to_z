@@ -27,6 +27,17 @@
                             {% if p.hook_text %}
                                 <h6 class="text-muted">{{ p.hook_text }}</h6>
                             {% endif %}
+
+                            {% if p.tags.exists %}
+                                <i class="fa-solid fa-octagon-check"></i>
+                                {% for tag in p.tags.iterator %}
+                                    <a href="{{ tag.get_absolute_url }}"><span class="badge rounded-pill bg-success">
+                                    {{ tag }}</span></a>
+                                {% endfor %}
+                                <br/>
+                                <br/>
+                            {% endif %}
+
                             <div class="small text-muted">Posted on {{ p.created_at }} by
                             <a href="#">{{ p.author | upper }}</a>
                             </div>
