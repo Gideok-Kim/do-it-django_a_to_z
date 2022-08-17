@@ -3,8 +3,10 @@
 {% block main_area %}
 
 
-                <h1>Blog{% if category %}<a class="badge bg-secondary">{{ category }}</a>{% endif %}</h1>
+                <h1>Blog{% if category %}<a class="badge bg-secondary">{{ category }}</a>{% endif %}
+                    {% if tag %}<a class="badge bg-secondary">{{ tag }}</a>{% endif %}</h1>
                 {% if post_list.exists %}
+
                      <!--Blog post-->
                     {% for p in post_list %}
                     <div class="card mb-4" id="post-{{ p.pk }}">
