@@ -1,18 +1,56 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>개발자 달타냥입니다.</title>
+    <title>About Me</title>
+
+    <link href="{% static 'blog/bootstrap5/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" media="screen">
+    <script src="https://kit.fontawesome.com/9c6355ff01.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <nav>
-    <a href="/blog/">Blog</a>
-    <a href="/about_me/">About me</a>
+{% include 'blog/navbar.html' %}
+<section>
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-lg-6 text-dark">
+                <h1 class="mt-5">About Me</h1>
+                <p>안녕하십니까 김기덕입니다.</p>
+                <p>
+                    저의 업무에 대해 이해하고 발전시키려는 노력을
+                    지속적으로 해서 내 외부적인 변화가 있더라도 쉽게
+                    문제를 해결 할 수 있는 사람이 되고 싶습니다.
+                </p>
+                <p>
+                    경력<br>
+                    - 삼일이노팩 품질관리업무 수행(2018.01 ~ 2019.10)<br>
+                    - 부산아이티윌 팀프로젝트(spring 프레임워크 사용) 최우수상
+                </p>
+                <p>
+                    학력<br>
+                    - 기장고등학교 졸업<br>
+                    - 동아대학교 졸업<br>
+                    - 부산 아이티윌 핀테크 기반 e-커머스 개발자A 과정 수료<br>
+                    - 디지털스마트부산 1기수료 (예정)
+                </p>
+                <p>
+                    자격증<br>
+                    - SQL 개발자<br>
+                    - 정보처리기사
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 
-  </nav>
-  <h1>안녕하세요. 달타냥입니다</h1>
-  <h2>이력</h2>
-  <h2>Portfolio</h2>
-  <h3>아직 공사중입니다. </h3>
+{% include 'blog/footer.html' %}
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+crossorigin="anonymous"></script>
+
 </body>
 </html>
